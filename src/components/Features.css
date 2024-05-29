@@ -1,0 +1,45 @@
+/* src/components/Features.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap");
+
+.features {
+  margin-top: 100px;
+  text-align: center; /* Center the tabs */
+  padding-top: 80px;
+}
+
+.features h2 {
+  font-size: 50px;
+  margin-bottom: 70px;
+  font-family: Poppins;
+  letter-spacing: 12px;
+}
+.feature-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.tab {
+  display: inline-block; /* Display tabs horizontally */
+  border: 10px solid #651744;
+  padding: 20px;
+  margin: 0 20px; /* Add space between tabs */
+  width: 250px;
+  vertical-align: top;
+}
+
+.icon {
+  font-size: 30px;
+}
+.tab h3 {
+  padding-top: 0px;
+  margin-top: 0;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: Poppins;
+}
+
+.tab p {
+  font-size: 18px;
+  font-family: Poppins;
+  margin: 0;
+}

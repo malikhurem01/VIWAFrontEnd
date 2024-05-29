@@ -1,0 +1,42 @@
+/* src/components/AboutUs.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.about-us {
+  margin-top: 100px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.about-us h2 {
+  font-size: 50px;
+  margin-bottom: 70px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 12px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.about-image {
+  max-width: 45%;
+  height: auto;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+.about-text {
+  max-width: 55%;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+.about-text p {
+  margin: 0;
+}

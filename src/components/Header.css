@@ -1,0 +1,68 @@
+/* src/components/Header.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+.header {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  width: 60%;
+  right: 0;
+  margin-right: 80px;
+  border-bottom: 3px solid #651744;
+  font-family: Poppins;
+}
+
+.logo-image {
+  border-radius: 50%;
+  height: 300px;
+  position: absolute;
+  top: -50px;
+  left: -400px;
+}
+.logo {
+  font-size: 24px;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+  padding: 0 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.start-button {
+  background-color: transparent;
+  color: white;
+  border: solid 2px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: Poppins;
+}
+.login-signup-button {
+  background-color: #9b1c53;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 15px;
+}

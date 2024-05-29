@@ -1,0 +1,82 @@
+.project-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-popup-inner {
+  background: #651744;
+  padding: 20px 40px 30px 40px;
+  border-radius: 10px;
+  text-align: left;
+  width: 400px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.project-popup-inner h2 {
+  margin-bottom: 20px;
+}
+
+.create-project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.create-project label {
+  margin-right: 10px;
+}
+
+.create-project input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.create-project button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.project-list {
+  margin-bottom: 20px;
+}
+
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.project-item button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.close-button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  float: right;
+}

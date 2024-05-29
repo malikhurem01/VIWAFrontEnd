@@ -1,0 +1,38 @@
+/* src/components/Body.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poly:ital,wght@1,400&display=swap");
+
+.body {
+  text-align: center;
+  padding: 200px 20px;
+  color: white;
+}
+
+.body h1 {
+  font-size: 65px;
+  margin-bottom: 20px;
+  font-family: Poppins;
+}
+
+.body p {
+  font-size: 20px;
+  font-family: Poppins;
+  padding-bottom: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.chrome-extension-button {
+  background-color: #9b1c53;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 15px;
+}

@@ -1,0 +1,21 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  color: white;
+  background-image: url("./images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.App {
+  text-align: center;
+  min-height: 400vh;
+  position: relative;
+  padding-bottom: 50px;
+}
+html {
+  scroll-behavior: smooth;
+}
